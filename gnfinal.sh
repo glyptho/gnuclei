@@ -42,7 +42,7 @@ echo ""
 echo -e "${BBlue}Enter the threads number:example:(100,150,200) ${Color_Off}"
 read threads
 echo ""
-echo -e "${BBlue}Enter the Nuclei Templates path: example:(~/nuclei-templates, orcustomtemplatespath) ${Color_Off}"
+echo -e "${BBlue}Enter the Nuclei Templates path: example:(~/nuclei-templates/, orcustomtemplatespath) ${Color_Off}"
 read templates
 echo ""
 printf "${BGreen}Your Entered Options are crit=$crit, urls=$urls, threads=$threads, templates=$templates ${Color_Off}\n\n"
